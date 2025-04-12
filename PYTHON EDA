@@ -1,0 +1,11 @@
+1. Introduction
+The agricultural economy in India relies heavily on the mandi system—a network of government-regulated markets for buying and selling produce. Understanding patterns in price fluctuations, volume trends, and commodity distributions can help farmers, traders, and policymakers optimize decisions. This project focuses on analysing mandi data using Python to gain insights into commodity pricing, distribution, and performance across regions.
+2. EDA Process
+Exploratory Data Analysis (EDA) was performed to understand the underlying patterns, detect anomalies, and prepare the data for analysis. Key steps included:
+•	Missing Value Analysis: Identifying and treating null or zero values in price columns.
+•	Data Cleaning: Standardizing category names, correcting inconsistent entries.
+•	Type Conversion: Parsing dates and converting numeric fields.
+•	New Feature Creation: Calculating revenue using price × quantity (if quantity is present) or aggregating modal prices.
+•	Descriptive Statistics: Mean, median, standard deviation for each commodity.
+3. Conclusion
+This project demonstrates how mandi data can be leveraged to extract meaningful agricultural insights. From understanding price dynamics to identifying profitable regions, the analysis provides value for all stakeholders. The systematic use of Python and visual analytics ensures the findings are interpretable and actionable.
